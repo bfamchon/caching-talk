@@ -1,0 +1,11 @@
+.yarn/*
+.pnp.*
+!.yarn/releases
+!.yarn/plugins
+
+node_modules
+
+**/build
+**/dist
+**/docs
+**/coverage

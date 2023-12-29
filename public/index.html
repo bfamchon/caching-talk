@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <title>Caching</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+    }
+    ul {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  </style>
+  <body>
+    <h1>Menu</h1>
+    <section>
+      <ul>
+        <li><a href="/max-age">Cache-Control max-age=15</a></li>
+        <li><a href="/etag">Cache-Control Etag</a></li>
+        <li><a href="/last-modified">Last-Modified</a></li>
+        <li><a href="/last-modified/no-cache">Last-Modified x Cache-Control no-cache</a></li>
+      </ul>
+    </section>
+  </body>
+</html>
